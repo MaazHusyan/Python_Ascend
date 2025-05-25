@@ -55,7 +55,3 @@ class CurrentAccount(BankAccount): # <=== Inheritance
         else:
             super().withdraw(amount)
 
-
-c_a = CurrentAccount("maaz",3000,2100)
-
-c_a.withdraw(2000)
